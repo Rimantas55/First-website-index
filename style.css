@@ -1,0 +1,161 @@
+body {
+	background-color: yellow;
+} 
+
+.container {
+	border: 5px solid red;
+	background-color: pink;
+}
+
+/*------Grad dalis ------*/
+#grad {
+  	background-image: linear-gradient(red, yellow, green);
+  	height: 120px;
+}
+.LT {
+ 	color: white;
+ 	text-align: center;
+ 	font-size: 50px;
+ 	font-weight: 1000; /*nededam px */
+ 	padding-top: 20px;
+}
+.row {
+	border: 5px solid black; 
+}
+
+/*-----navigation--------*/ 
+
+
+/*
+
+Bootstrap klasiu papildymas galimas, bet reikia buti atsargiam su tokiom klasem, kaip col-***
+Tu gali nuspresti, kad vietoj col-md-4 panaudosi col-md-5 ir tavo papildymai nebeveiks.
+Geriau susikurti savo klases/id, kaip kad #menu, #menu_left, #menu_top ir pan aprasyti ju stiliu ir tada suteikti tiems col, kuriems reikia 
+
+*/
+
+
+
+
+
+.nav .col-3 {
+	color: white;
+	text-align: center;
+	background-color: black; /*kodel neveikia per <a>*/
+	/* A turi savo stiliu, reiktu perrasyti ji. zr zemiau*/
+	border: 5px solid orange;
+}
+
+
+a, a:hover, a:visited, a:active {
+	text-decoration: none; 
+	color: red;
+}
+
+
+.nav .col-3:hover {
+    background: darkgray;
+    text-decoration: none; 
+}
+
+/*-----images-------------*/
+.col-3 {
+	background-color: green;
+	border: 5px solid pink;
+	padding: 10px;
+	text-align: center;
+}
+.col-3 img {
+	max-width: 100%;
+	max-height: 100%;
+	text-align: center; 
+}
+.col-12 {
+	border: 2px solid yellow;
+}
+.col-8 {
+	border: 1px solid black;
+}
+.col-4 {
+	border: 1px solid orange;
+}
+#a2 .col-4{
+	border: 1px solid orange;
+    margin: 20px 0 20px 0;
+    height: 60px;
+}
+
+/* kodel nesikeicia height pilko background*/
+#main_text {
+	border: 5px solid blue;
+    margin: 20px 0 20px 0;
+    height: 800px;
+}
+
+/* texto redagavimas */
+p {
+	padding: 5px 20px 5px 20px;
+	text-align: justify;
+}
+h3, h2{
+	background-color: yellow;
+	text-align: center;
+}
+
+/* ------ Video ikelimas ----*/
+/*---nepavyko sumazinti video */
+div .embed-responsive .embed-responsive-16by9 iframe {
+	height: 100px;
+	width: 200px;
+} 
+
+/* -----Table--------*/
+table, th, td {
+	border: 1px solid blue;
+	padding: 5px;
+	margin: 10px; 
+}
+
+/* kaip padaryti kad 
+lentele trauktusi graziai
+ir neiseitu is krastu? / ar
+naudoti mediaquaery?*/
+table {
+	max-width: 800%;
+}
+th {
+	color: white;
+	background-color: black;
+}
+td {
+	background-color: green;
+	color: yellow;
+}
+
+/* ----Soniniai Linkai ----*/
+h4 {
+	background-color: black;
+	color: white;
+	border: 5px solid green;
+	/* width procentai ar pixeliai?*/
+	max-width:  100%;
+	padding: 10px;
+	margin-top: 20px
+}
+
+h6 {
+	padding: 10px;
+	text-align: right;
+}
+
+/* ----- footer------*/
+/*kodel neveikia footer clase*/
+.footer {
+	background-color: grey;
+	color: white;
+	height: 60px;
+}
+
+img {
+	max-width: 100%;
+}
