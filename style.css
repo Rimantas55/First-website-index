@@ -34,26 +34,23 @@ Geriau susikurti savo klases/id, kaip kad #menu, #menu_left, #menu_top ir pan ap
 
 */
 
-
-
-
-
-.nav .col-3 {
+.nav .col-md-3 {
 	color: white;
 	text-align: center;
-	background-color: black; /*kodel neveikia per <a>*/
+	background-color: black; /*kodel neveikia per <a>
 	/* A turi savo stiliu, reiktu perrasyti ji. zr zemiau*/
 	border: 5px solid orange;
+	padding:10px;
 }
 
-
-a, a:hover, a:visited, a:active {
+/*h4, a,*/ a:hover, a:visited, a:active {
 	text-decoration: none; 
-	color: red;
+	color: white;
+	background-color: black;
+	border: 2px solid red;
 }
 
-
-.nav .col-3:hover {
+.nav .col-md-3:hover {
     background: darkgray;
     text-decoration: none; 
 }
@@ -113,7 +110,6 @@ div .embed-responsive .embed-responsive-16by9 iframe {
 table, th, td {
 	border: 1px solid blue;
 	padding: 5px;
-	margin: 10px; 
 }
 
 /* kaip padaryti kad 
@@ -121,7 +117,7 @@ lentele trauktusi graziai
 ir neiseitu is krastu? / ar
 naudoti mediaquaery?*/
 table {
-	max-width: 800%;
+	/*max-width: 700%;*/
 }
 th {
 	color: white;
